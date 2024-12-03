@@ -60,7 +60,7 @@ const services = [
 ];
 
 const technologies = {
-  languages: [
+  devops: [
     {
       name: "HTML5",
       icon: "/assets/tech/html5.svg",
@@ -102,7 +102,7 @@ const technologies = {
       link: "https://www.php.net/",
     },
   ],
-  frameworks: [
+  cloud: [
     {
       name: "Next.js",
       icon: "/assets/tech/nextjs.svg",
@@ -124,7 +124,7 @@ const technologies = {
       link: "https://flutter.dev/",
     },
   ],
-  libraries: [
+  scripting: [
     {
       name: "React",
       icon: "/assets/tech/react.svg",
@@ -156,7 +156,7 @@ const technologies = {
       link: "https://www.prisma.io/",
     },
   ],
-  tools: [
+  iac: [
     {
       name: "Git",
       icon: "/assets/tech/git.svg",
@@ -183,14 +183,116 @@ const technologies = {
       link: "https://www.docker.com/",
     },
   ],
-  environments: [
+  monitoring: [
     {
       name: "Node.js",
       icon: "/assets/tech/nodejs.svg",
       link: "https://nodejs.org/en",
     },
   ],
+  security: [
+    {
+      name: "MongoDB",
+      icon: "/assets/tech/mongodb.svg",
+      link: "https://www.mongodb.com/",
+    },
+    {
+      name: "Firebase",
+      icon: "/assets/tech/firebase.svg",
+      link: "https://firebase.google.com/",
+    },
+    {
+      name: "MySQL",
+      icon: "/assets/tech/my-sql.png",
+      link: "https://www.mysql.com/",
+    },
+  ],
+  loadbalancers: [
+    {
+      name: "MongoDB",
+      icon: "/assets/tech/mongodb.svg",
+      link: "https://www.mongodb.com/",
+    },
+    {
+      name: "Firebase",
+      icon: "/assets/tech/firebase.svg",
+      link: "https://firebase.google.com/",
+    },
+    {
+      name: "MySQL",
+      icon: "/assets/tech/my-sql.png",
+      link: "https://www.mysql.com/",
+    },
+  ],
+  versioning: [
+    {
+      name: "MongoDB",
+      icon: "/assets/tech/mongodb.svg",
+      link: "https://www.mongodb.com/",
+    },
+    {
+      name: "Firebase",
+      icon: "/assets/tech/firebase.svg",
+      link: "https://firebase.google.com/",
+    },
+    {
+      name: "MySQL",
+      icon: "/assets/tech/my-sql.png",
+      link: "https://www.mysql.com/",
+    },
+  ],
   databases: [
+    {
+      name: "MongoDB",
+      icon: "/assets/tech/mongodb.svg",
+      link: "https://www.mongodb.com/",
+    },
+    {
+      name: "Firebase",
+      icon: "/assets/tech/firebase.svg",
+      link: "https://firebase.google.com/",
+    },
+    {
+      name: "MySQL",
+      icon: "/assets/tech/my-sql.png",
+      link: "https://www.mysql.com/",
+    },
+  ],
+  testing: [
+    {
+      name: "MongoDB",
+      icon: "/assets/tech/mongodb.svg",
+      link: "https://www.mongodb.com/",
+    },
+    {
+      name: "Firebase",
+      icon: "/assets/tech/firebase.svg",
+      link: "https://firebase.google.com/",
+    },
+    {
+      name: "MySQL",
+      icon: "/assets/tech/my-sql.png",
+      link: "https://www.mysql.com/",
+    },
+  ],
+  sre: [
+    {
+      name: "MongoDB",
+      icon: "/assets/tech/mongodb.svg",
+      link: "https://www.mongodb.com/",
+    },
+    {
+      name: "Firebase",
+      icon: "/assets/tech/firebase.svg",
+      link: "https://firebase.google.com/",
+    },
+    {
+      name: "MySQL",
+      icon: "/assets/tech/my-sql.png",
+      link: "https://www.mysql.com/",
+    },
+  ],
+  environments: [
     {
       name: "MongoDB",
       icon: "/assets/tech/mongodb.svg",

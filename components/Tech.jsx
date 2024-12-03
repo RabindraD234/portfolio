@@ -7,20 +7,32 @@ import { technologies } from "../constants";
 import { fadeIn, textVariant } from "@/utils/motion";
 
 const tech = [
-  technologies.languages,
-  technologies.frameworks,
-  technologies.libraries,
+  technologies.devops,
+  technologies.cloud,
+  technologies.scripting,
+  technologies.iac,
+  technologies.monitoring,
+  technologies.security,
+  technologies.loadbalancers,
+  technologies.versioning,
   technologies.databases,
-  technologies.tools,
+  technologies.testing,
+  technologies.sre,
   technologies.environments,
 ];
 
 const techVariants = [
-  "Languages",
-  "Frameworks",
-  "Libraries",
+  "DevOps",
+  "Cloud",
+  "Scripting",
+  "IaC",
+  "Monitoring",
+  "Security",
+  "LoadBalancers",
+  "Versioning",
   "Databases",
-  "Tools",
+  "Testing",
+  "SRE",
   "Environments",
 ];
 
