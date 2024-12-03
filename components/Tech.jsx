@@ -103,12 +103,20 @@ function Tech() {
           initial="hidden"
           whileInView="show"
           viewport={{ once: true }}
-          className="flex flex-col justify-between h-full gap-5"
+          className="flex flex-col justify-between gap-5"
         >
           {techNames}
         </motion.div>
-        <div className="w-[2px] h-[400px] dark:bg-ctnSecondaryDark bg-ctnSecondaryLight rounded-lg md:flex hidden mx-8" />
-        <div className="md:w-[80%] w-full pl-2 h-full flex flex-col gap-8">
+
+        {/* Updated vertical line to stretch dynamically */}
+        <div
+          className="w-[2px] bg-ctnSecondaryLight dark:bg-ctnSecondaryDark rounded-lg md:flex hidden mx-8"
+          style={{
+            flexGrow: 1, // Ensures the line dynamically stretches with the content
+          }}
+        />
+
+        <div className="md:w-[80%] w-full pl-2 h-auto flex flex-col gap-8">
           {languages}
         </div>
       </motion.div>
