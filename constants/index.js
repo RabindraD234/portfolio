@@ -366,10 +366,10 @@ const projects = [
       },
     ],
     image: "/assets/projects/facility-manager.png",
-    source_code_link:
-      "https://github.com/Shivam-Sharma-1/Facility-Management-System",
-    deployed_link:
-      "https://github.com/Shivam-Sharma-1/Facility-Management-System?tab=readme-ov-file#demo",
+   // source_code_link:
+   //   "https://github.com/Shivam-Sharma-1/Facility-Management-System",
+   // deployed_link:
+   //   "https://github.com/Shivam-Sharma-1/Facility-Management-System?tab=readme-ov-file#demo",
   },
 
 ];
@@ -399,12 +399,12 @@ const socials = [
 
 const heroTexts = [
   "Multicloud DevOps Engineer", 500,
-  "Cloud Infrastructure Architect", 500,
-  "Cloud Solutions Architect (AWS, Azure, GCP)", 500,
-  "Automation Specialist for Cloud Infrastructure", 500,
-  "CI/CD Pipeline Expert", 500,
-  "AWS Certified SysOps Administrator - Associate", 500,
-  "Site Reliability Engineer (SRE)", 500,
+  "Cloud Architect", 500,
+  "Cloud Solutions Expert", 500,
+  "Infrastructure Automation", 500,
+  "CI/CD Expert", 500,
+  "AWS SysOps Certified", 500,
+  "SRE Specialist", 500,
 ];
 
 export {
