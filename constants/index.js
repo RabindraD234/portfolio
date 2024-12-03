@@ -34,27 +34,27 @@ const navLinks = [
 
 const services = [
   {
-    title: "Full Stack Developer",
+    title: "Multicloud",
     icon: <FullStackIcon />,
   },
   {
-    title: "Frontend Developer",
+    title: "Infrastructure as Code (IaC)",
     icon: <FrontendIcon />,
   },
   {
-    title: "Backend Developer",
+    title: "CI/CD",
     icon: <BackendIcon />,
   },
   {
-    title: "Problem Solving",
+    title: "Containers & Orchestration",
     icon: <ProblemSolvingIcon />,
   },
   {
-    title: "Freelancer",
+    title: "Automation & Scripting",
     icon: <FreelancerIcon />,
   },
   {
-    title: "Leadership",
+    title: "Release Management",
     icon: <LeaderShipIcon />,
   },
 ];
@@ -371,114 +371,40 @@ const projects = [
     deployed_link:
       "https://github.com/Shivam-Sharma-1/Facility-Management-System?tab=readme-ov-file#demo",
   },
-  // {
-  //   name: "Netflix Clone",
-  //   description:
-  //     "Netflix-Clone is a fully responsive web application that replicates the popular streaming platform Netflix. It is built using Next.js, Prisma, React, NextAuth.js, Tailwind CSS, MongoDB and TypeScript. This project aims to showcase the implementation of these technologies to create a feature-rich clone of Netflix.",
-  //   tags: [
-  //     {
-  //       name: "next.js",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "typescript",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "tailwindcss",
-  //       color: "pink-text-gradient",
-  //     },
-  //     {
-  //       name: "mongodb",
-  //       color: "orange-text-gradient",
-  //     },
-  //   ],
-  //   image: "/assets/projects/netflix-clone.png",
-  //   source_code_link: "https://github.com/Shivam-Sharma-1/Netflix-Clone.git",
-  //   deployed_link: "https://netflix-clone12345.vercel.app",
-  // },
-  // {
-  //   name: "Van-Life",
-  //   description:
-  //     "VanLife is a user-friendly website built with React that simplifies van searches. It is a web app used to browse different types of vans. It allows users to log in and offers convenient tag-based filtering for easy browsing.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "mirage.js",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "firebase-firestore",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: "/assets/projects/vanlife.png",
-  //   source_code_link: "https://github.com/Shivam-Sharma-1/Van-Life.git",
-  //   deployed_link: "https://myvanlife.netlify.app",
-  // },
-  // {
-  // 	name: "Spooky-Run",
-  // 	description:
-  // 		"Spooky Run is a web based 2D arcade style game that allows players to play as a lost dog finding its way back home through a spooky forest. The game is built using vanilla JavaScript and utilizes HTML5 and the 'canvas' element to render graphics and handle user input.",
-  // 	tags: [
-  // 		{
-  // 			name: "html5",
-  // 			color: "blue-text-gradient"
-  // 		},
-  // 		{
-  // 			name: "css3",
-  // 			color: "green-text-gradient"
-  // 		},
-  // 		{
-  // 			name: "javascript",
-  // 			color: "pink-text-gradient"
-  // 		}
-  // 	],
-  // 	image: "/assets/projects/spooky-run.png",
-  // 	source_code_link: "https://github.com/Shivam-Sharma-1/Spooky-Run.git",
-  // 	deployed_link: "https://shivam-sharma-1.github.io/Spooky-Run"
-  // }
+
 ];
 
 const socials = [
   {
     id: "github",
     icon: <GithubIcon />,
-    link: "https://github.com/Shivam-Sharma-1",
+    link: "https://github.com/RabindraD234",
   },
   {
     id: "linkedin",
     icon: <LinkedInIcon />,
-    link: "https://www.linkedin.com/in/shivamsharma77607",
+    link: "",
   },
   {
     id: "x",
     icon: <XIcon />,
-    link: "https://twitter.com/Shivam_1_Sharma",
+    link: "",
   },
   {
     id: "instagram",
     icon: <InstagramIcon />,
-    link: "https://www.instagram.com/_.shivam._.here._",
+    link: "https://www.instagram.com/rabindra_vibes",
   },
 ];
 
 const heroTexts = [
-  "React/Next.js developer",
-  500,
-  "Freelancer",
-  500,
-  "Full-Stack developer",
-  500,
-  "Frontend developer",
-  500,
-  "Backend developer",
-  500,
-  "Tech Team Lead at GDSC MVJCE",
-  500,
+  "Multicloud DevOps Engineer", 500,
+  "Cloud Infrastructure Architect", 500,
+  "Cloud Solutions Architect (AWS, Azure, GCP)", 500,
+  "Automation Specialist for Cloud Infrastructure", 500,
+  "CI/CD Pipeline Expert", 500,
+  "AWS Certified SysOps Administrator - Associate", 500,
+  "Site Reliability Engineer (SRE)", 500,
 ];
 
 export {

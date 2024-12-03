@@ -23,9 +23,9 @@ export default function App({ Component, pageProps }) {
 		}
 	}, [loading]);
 
-	const title = "Portfolio | Shivam Sharma";
+	const title = "Portfolio | Rabindra Das";
 	const description =
-		"Hello! I'm Shivam Sharma, a passionate web developer and problem solver. Welcome to my portfolio";
+		"Hello! I'm Rabindra Das, a DevOps Cloud Engineer and Site Reliability Engineer (SRE). Welcome to my portfolio";
 	const avatar =
 		"https://res.cloudinary.com/dyle3hnpw/image/upload/v1696091629/portfolio/WhatsApp_Image_2023-09-30_at_10.02.55_PM_jk44v9.jpg";
 	const url = "https://shivam-sharma-myportfolio.vercel.app/";
