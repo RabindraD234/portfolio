@@ -417,8 +417,8 @@ const projects = [
       },
     ],
     image: "/assets/projects/fig-pro.png",
-    source_code_link: "https://github.com/Shivam-Sharma-1/FigPro",
-    deployed_link: "https://fig-pro-github.vercel.app",
+    //source_code_link: "https://github.com/Shivam-Sharma-1/FigPro",
+    //deployed_link: "https://fig-pro-github.vercel.app",
   },
   {
     name: "GDSC Website",
