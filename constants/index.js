@@ -319,42 +319,45 @@ const technologies = {
 
 const experiences = [
   {
-    title: "Full Stack Developer",
-    company_name: "Tech Lead at GDSC MVJCE",
+    title: "Cloud DevOps Engineer",
+    company_name: "Limasoft India Pvt Ltd",
     icon: "/assets/company/gdsc-logo.svg",
     iconBg: "#E6DEDD",
-    date: "July 2023 - Present",
+    date: "April 2023 - Present",
     points: [
-      "Currently serving as the Tech Lead of GDSC, responsible for guiding technical aspects, fostering collaboration, and contributing to strategic decisions.",
-      "Led induction programs, ensured new member alignment with GDSC's mission, and provided technical mentorship.",
-      "Developed GDSC MVJCE website, enhancing the organization's online visibility.",
-      "Spearheaded promotional campaigns, actively engaged with the GDSC community, and played a key role in planning and executing events.",
+      "Architected and managed highly scalable, secure, and fault-tolerant cloud infrastructure across AWS and Azure platforms.",
+      "Designed and implemented advanced CI/CD pipelines using Jenkins, GitLab CI, and GitHub Actions, ensuring rapid and reliable deployments.",
+      "Automated infrastructure provisioning and configuration management using Terraform, Ansible, and CloudFormation, reducing manual effort by 40%.",
+      "Enhanced system observability by integrating tools like Prometheus, Grafana, and ELK stack, leading to a 50% reduction in incident resolution time.",
+      "Proactively led cross-functional teams in optimizing cost, performance, and reliability of cloud environments, delivering measurable business impact."
     ],
   },
   {
-    title: "Full Stack Developer Intern",
-    company_name: "Intern at DRDO CABS",
+    title: "Cloud DevOps Engineer",
+    company_name: "Neosoft Technologies",
     icon: "/assets/company/drdo-cabs.png",
     iconBg: "#E6DEDD",
-    date: "November 2023",
+    date: "June 2019 - March 2023",
     points: [
-      "Developed a Facility Bookings Manager for DRDO CABS using TypeScript, React, Node.js, Express, Prisma, and MySQL within a month.",
-      "Actively addressed client issues and queries, ensuring seamless integration with their platform and local cluster system.",
-      "Led the design and implementation of the frontend, providing a user-friendly interface for efficient facility management.",
-      "Collaborated with a backend intern throughout the internship to deliver a comprehensive solution tailored to DRDO CABS's needs.",
+      "Orchestrated seamless cloud migration projects for enterprise clients, achieving cost savings and improved scalability.",
+      "Built and managed Kubernetes clusters for containerized applications, ensuring zero-downtime deployments and efficient resource utilization.",
+      "Automated security and compliance processes by implementing IAM policies, encryption, and continuous security scans.",
+      "Streamlined workflows by integrating DevOps best practices, leading to a 35% reduction in project delivery times.",
+      "Mentored junior engineers, fostering a culture of learning and continuous improvement within the DevOps team."
     ],
   },
   {
-    title: "Frontend Developer",
-    company_name: "Tech team member at GDSC MVJCE",
+    title: "DevOps Consultant",
+    company_name: "Freelance Projects",
     icon: "/assets/company/gdsc-logo.svg",
     iconBg: "#E6DEDD",
-    date: "February 2022 - July 2023",
+    date: "Part-time (2020 - Present)",
     points: [
-      "Successfully planned and executed induction programs, providing new members with crucial information about the organization's goals and values.",
-      "Demonstrated web development expertise by conducting CSS workshops, equipping participants with practical web design and styling skills.",
-      "Played a crucial role in promoting GDSC events and actively collaborated with cross-functional teams to deliver high-quality projects, fostering teamwork and innovation.",
-      "Actively engaged with the GDSC community, assisted in workshops, and contributed to planning and managing GDSC events, ensuring their success and growth.",
+      "Advised startups and enterprises on cloud strategies, reducing infrastructure costs by up to 30%.",
+      "Developed custom DevOps solutions tailored to unique business needs, ensuring scalability and reliability.",
+      "Provided hands-on training and workshops on Kubernetes, Docker, and cloud-native technologies.",
+      "Assisted clients in adopting GitOps practices for enhanced automation and version control of infrastructure.",
+      "Resolved critical production issues, demonstrating expertise under high-pressure environments."
     ],
   },
 ];
