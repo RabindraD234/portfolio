@@ -321,7 +321,7 @@ const experiences = [
   {
     title: "Cloud DevOps Engineer",
     company_name: "Limasoft India Pvt Ltd",
-    icon: "/assets/company/gdsc-logo.svg",
+    icon: "/assets/company/limalogo.svg",
     iconBg: "#E6DEDD",
     date: "April 2023 - Present",
     points: [
@@ -335,7 +335,7 @@ const experiences = [
   {
     title: "Cloud DevOps Engineer",
     company_name: "Neosoft Technologies",
-    icon: "/assets/company/drdo-cabs.png",
+    icon: "/assets/company/agile.png",
     iconBg: "#E6DEDD",
     date: "June 2019 - March 2023",
     points: [
@@ -349,7 +349,7 @@ const experiences = [
   {
     title: "DevOps Consultant",
     company_name: "Freelance Projects",
-    icon: "/assets/company/gdsc-logo.svg",
+    icon: "/assets/company/devops-2.svg",
     iconBg: "#E6DEDD",
     date: "Part-time (2020 - Present)",
     points: [
