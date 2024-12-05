@@ -62,234 +62,250 @@ const services = [
 const technologies = {
   devops: [
     {
-      name: "HTML5",
-      icon: "/assets/tech/html5.svg",
-      link: "https://html.spec.whatwg.org/multipage/",
+      name: "Docker",
+      icon: "/assets/tech/docker.svg",
+      link: "https://www.docker.com/",
     },
     {
-      name: "CSS3",
-      icon: "/assets/tech/css3.svg",
-      link: "https://www.w3.org/Style/CSS/Overview.en.html",
+      name: "Kubernetes",
+      icon: "/assets/tech/kubernetes.svg",
+      link: "https://kubernetes.io/",
     },
     {
-      name: "JavaScript",
-      icon: "/assets/tech/javascript.svg",
-      link: "https://262.ecma-international.org/",
+      name: "Terraform",
+      icon: "/assets/tech/terraform.svg",
+      link: "https://www.terraform.io/",
     },
     {
-      name: "TypeScript",
-      icon: "/assets/tech/typescript.svg",
-      link: "https://www.typescriptlang.org/",
+      name: "Ansible",
+      icon: "/assets/tech/ansible.svg",
+      link: "https://www.ansible.com/",
     },
     {
-      name: "C",
-      icon: "/assets/tech/c.svg",
-      link: "https://en.cppreference.com/w/c",
+      name: "Jenkins",
+      icon: "/assets/tech/jenkins.svg",
+      link: "https://www.jenkins.io/",
     },
     {
-      name: "Java",
-      icon: "/assets/tech/java.svg",
-      link: "https://www.java.com/en/",
+      name: "GitHub-Actions",
+      icon: "/assets/tech/githubactions.svg",
+      link: "https://github.com/features/actions",
     },
+    {
+      name: "Argo-CD",
+      icon: "/assets/tech/argocd.svg",
+      link: "https://argo-cd.readthedocs.io/en/stable/",
+    },
+    {
+      name: "SonarQube",
+      icon: "/assets/tech/sonarqube.svg",
+      link: "https://www.sonarsource.com/",
+    },
+    {
+      name: "Helm",
+      icon: "/assets/tech/helm.svg",
+      link: "https://helm.sh/",
+    },
+  ],
+  cloud: [
+    {
+      name: "AWS",
+      icon: "/assets/tech/aws.svg",
+      link: "https://aws.amazon.com/",
+    },
+    {
+      name: "Azure",
+      icon: "/assets/tech/azure.svg",
+      link: "https://azure.microsoft.com/",
+    },
+    {
+      name: "GCP",
+      icon: "/assets/tech/gcp.svg",
+      link: "https://cloud.google.com/",
+    },
+  ],
+  scripting: [
     {
       name: "Python",
       icon: "/assets/tech/python.svg",
       link: "https://www.python.org/",
     },
     {
-      name: "PHP",
-      icon: "/assets/tech/php.png",
-      link: "https://www.php.net/",
-    },
-  ],
-  cloud: [
-    {
-      name: "Next.js",
-      icon: "/assets/tech/nextjs.svg",
-      link: "https://nextjs.org/",
+      name: "Java",
+      icon: "/assets/tech/java.svg",
+      link: "https://www.java.com/",
     },
     {
-      name: "TailwindCSS",
-      icon: "/assets/tech/tailwindcss.svg",
-      link: "https://tailwindcss.com/",
+      name: "Bash",
+      icon: "/assets/tech/bash.svg",
+      link: "https://www.linuxfoundation.org/",
     },
     {
-      name: "Express.js",
-      icon: "/assets/tech/expressjs.png",
-      link: "https://expressjs.com/",
+      name: "Golang",
+      icon: "/assets/tech/golang.svg",
+      link: "https://go.dev/",
     },
     {
-      name: "Flutter",
-      icon: "/assets/tech/flutter.svg",
-      link: "https://flutter.dev/",
-    },
-  ],
-  scripting: [
-    {
-      name: "React",
-      icon: "/assets/tech/react.svg",
-      link: "https://react.dev/",
-    },
-    {
-      name: "Three.js",
-      icon: "/assets/tech/threejs.svg",
-      link: "https://threejs.org/",
-    },
-    {
-      name: "Styled-Components",
-      icon: "/assets/tech/styled-components.png",
-      link: "https://styled-components.com/",
-    },
-    {
-      name: "Framer-motion",
-      icon: "/assets/tech/framer.svg",
-      link: "https://www.framer.com/motion/",
-    },
-    {
-      name: "NextAuth.js",
-      icon: "/assets/tech/nextauthjs.png",
-      link: "https://next-auth.js.org/",
-    },
-    {
-      name: "Prisma",
-      icon: "/assets/tech/prisma.svg",
-      link: "https://www.prisma.io/",
+      name: "YAML",
+      icon: "/assets/tech/yaml.svg",
+      link: "https://yaml.org/",
     },
   ],
   iac: [
     {
-      name: "Git",
-      icon: "/assets/tech/git.svg",
-      link: "https://git-scm.com/",
+      name: "Terraform",
+      icon: "/assets/tech/terraform.svg",
+      link: "https://www.terraform.io/",
     },
     {
-      name: "Github",
-      icon: "/assets/icons/github.svg",
+      name: "Cloudformation",
+      icon: "/assets/tech/cloudformation.svg",
+      link: "https://aws.amazon.com/cloudformation/",
+    },
+    {
+      name: "Pulumi",
+      icon: "/assets/tech/pulumi.svg",
+      link: "https://www.pulumi.com/",
+    },
+  ],
+  monitoring: [
+    {
+      name: "Prometheus",
+      icon: "/assets/tech/prometheus.svg",
+      link: "https://prometheus.io/",
+    },
+    {
+      name: "Grafana",
+      icon: "/assets/tech/grafana.svg",
+      link: "https://grafana.com/",
+    },
+    {
+      name: "ELK",
+      icon: "/assets/tech/elasticsearch.svg",
+      link: "https://www.elastic.co/",
+    },
+    {
+      name: "DataDog",
+      icon: "/assets/tech/datadog.svg",
+      link: "https://www.datadoghq.com/",
+    },
+
+  ],
+  security: [
+    {
+      name: "BurpSuite",
+      icon: "/assets/tech/burpsuite.svg",
+      link: "https://portswigger.ne",
+    },
+    {
+      name: "Metasploit",
+      icon: "/assets/tech/metasploit.svg",
+      link: "https://www.metasploit.com/",
+    },
+    {
+      name: "ZAP",
+      icon: "/assets/tech/zap.png",
+      link: "https://www.zaproxy.org/",
+    },
+    {
+      name: "Aquasec",
+      icon: "/assets/tech/aqua.svg",
+      link: "https://www.aquasec.com/",
+    },
+  ],
+  loadbalancers: [
+    {
+      name: "NGINX",
+      icon: "/assets/tech/nginx.svg",
+      link: "https://nginx.org/",
+    },
+    {
+      name: "HAProxy",
+      icon: "/assets/tech/haproxy.svg",
+      link: "https://www.haproxy.com/",
+    },
+  ],
+  versioning: [
+    {
+      name: "GitHub",
+      icon: "/assets/tech/github.svg",
       link: "https://github.com/",
     },
+    {
+      name: "GitLab",
+      icon: "/assets/tech/gitlab.svg",
+      link: "https://about.gitlab.com/",
+    },
+    {
+      name: "Bitbucket",
+      icon: "/assets/tech/bitbucket.svg",
+      link: "https://bitbucket.org/",
+    },
+  ],
+  databases: [
+    {
+      name: "MySQL",
+      icon: "/assets/tech/mysql.svg",
+      link: "https://www.mysql.com/",
+    },
+    {
+      name: "MariaDB",
+      icon: "/assets/tech/mariadb.svg",
+      link: "https://mariadb.org/",
+    },
+    {
+      name: "MongoDB",
+      icon: "/assets/tech/mongodb.svg",
+      link: "https://www.mongodb.com/",
+    },
+    {
+      name: "Oracle",
+      icon: "/assets/tech/oracle.svg",
+      link: "https://www.oracle.com/",
+    },
+    {
+      name: "PostgreSQL",
+      icon: "/assets/tech/postgresql.svg",
+      link: "https://www.postgresql.org/",
+    },
+  ],
+  testing: [
     {
       name: "Postman",
       icon: "/assets/tech/postman.svg",
       link: "https://www.postman.com/",
     },
     {
-      name: "Figma",
-      icon: "/assets/tech/figma.svg",
-      link: "https://www.figma.com/",
-    },
-    {
-      name: "Docker",
-      icon: "/assets/tech/docker.svg",
-      link: "https://www.docker.com/",
-    },
-  ],
-  monitoring: [
-    {
-      name: "Node.js",
-      icon: "/assets/tech/nodejs.svg",
-      link: "https://nodejs.org/en",
-    },
-  ],
-  security: [
-    {
-      name: "MongoDB",
-      icon: "/assets/tech/mongodb.svg",
-      link: "https://www.mongodb.com/",
-    },
-    {
-      name: "Firebase",
-      icon: "/assets/tech/firebase.svg",
-      link: "https://firebase.google.com/",
-    },
-    {
-      name: "MySQL",
-      icon: "/assets/tech/my-sql.png",
-      link: "https://www.mysql.com/",
-    },
-  ],
-  loadbalancers: [
-    {
-      name: "MongoDB",
-      icon: "/assets/tech/mongodb.svg",
-      link: "https://www.mongodb.com/",
-    },
-    {
-      name: "Firebase",
-      icon: "/assets/tech/firebase.svg",
-      link: "https://firebase.google.com/",
-    },
-    {
-      name: "MySQL",
-      icon: "/assets/tech/my-sql.png",
-      link: "https://www.mysql.com/",
-    },
-  ],
-  versioning: [
-    {
-      name: "MongoDB",
-      icon: "/assets/tech/mongodb.svg",
-      link: "https://www.mongodb.com/",
-    },
-    {
-      name: "Firebase",
-      icon: "/assets/tech/firebase.svg",
-      link: "https://firebase.google.com/",
-    },
-    {
-      name: "MySQL",
-      icon: "/assets/tech/my-sql.png",
-      link: "https://www.mysql.com/",
-    },
-  ],
-  databases: [
-    {
-      name: "MongoDB",
-      icon: "/assets/tech/mongodb.svg",
-      link: "https://www.mongodb.com/",
-    },
-    {
-      name: "Firebase",
-      icon: "/assets/tech/firebase.svg",
-      link: "https://firebase.google.com/",
-    },
-    {
-      name: "MySQL",
-      icon: "/assets/tech/my-sql.png",
-      link: "https://www.mysql.com/",
-    },
-  ],
-  testing: [
-    {
-      name: "MongoDB",
-      icon: "/assets/tech/mongodb.svg",
-      link: "https://www.mongodb.com/",
-    },
-    {
-      name: "Firebase",
-      icon: "/assets/tech/firebase.svg",
-      link: "https://firebase.google.com/",
-    },
-    {
-      name: "MySQL",
-      icon: "/assets/tech/my-sql.png",
-      link: "https://www.mysql.com/",
+      name: "Selenium",
+      icon: "/assets/tech/selenium.svg",
+      link: "https://www.selenium.dev/",
     },
   ],
   sre: [
     {
-      name: "MongoDB",
-      icon: "/assets/tech/mongodb.svg",
-      link: "https://www.mongodb.com/",
+      name: "New Relic",
+      icon: "/assets/tech/new_relic.svg",
+      link: "https://newrelic.com/",
     },
     {
-      name: "Firebase",
-      icon: "/assets/tech/firebase.svg",
-      link: "https://firebase.google.com/",
+      name: "Litmus",
+      icon: "/assets/tech/litmus.svg",
+      link: "https://litmuschaos.io/",
     },
     {
-      name: "MySQL",
-      icon: "/assets/tech/my-sql.png",
-      link: "https://www.mysql.com/",
+      name: "Gremlin",
+      icon: "/assets/tech/gremlin.svg",
+      link: "https://www.gremlin.com/",
+    },
+    {
+      name: "Opsgenie",
+      icon: "/assets/tech/opsgenie.svg",
+      link: "https://www.atlassian.com/software/opsgenie",
+    },
+    {
+      name: "PagerDuty",
+      icon: "/assets/tech/pagerduty.svg",
+      link: "https://www.pagerduty.com/",
     },
   ],
   environments: [
@@ -297,16 +313,6 @@ const technologies = {
       name: "MongoDB",
       icon: "/assets/tech/mongodb.svg",
       link: "https://www.mongodb.com/",
-    },
-    {
-      name: "Firebase",
-      icon: "/assets/tech/firebase.svg",
-      link: "https://firebase.google.com/",
-    },
-    {
-      name: "MySQL",
-      icon: "/assets/tech/my-sql.png",
-      link: "https://www.mysql.com/",
     },
   ],
 };
