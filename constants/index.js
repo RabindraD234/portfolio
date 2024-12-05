@@ -310,9 +310,29 @@ const technologies = {
   ],
   environments: [
     {
-      name: "MongoDB",
-      icon: "/assets/tech/mongodb.svg",
-      link: "https://www.mongodb.com/",
+      name: "Ubuntu",
+      icon: "/assets/tech/ubuntu.svg",
+      link: "https://ubuntu.com/",
+    },
+    {
+      name: "CentOS",
+      icon: "/assets/tech/centos.svg",
+      link: "https://www.centos.org/",
+    },
+    {
+      name: "Red Hat",
+      icon: "/assets/tech/redhat.svg",
+      link: "https://www.redhat.com/en",
+    },
+    {
+      name: "SUSE",
+      icon: "/assets/tech/suse.svg",
+      link: "https://www.suse.com/",
+    },
+    {
+      name: "Windows",
+      icon: "/assets/tech/windows.svg",
+      link: "https://www.microsoft.com/",
     },
   ],
 };
