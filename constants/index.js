@@ -8,6 +8,7 @@ import ProblemSolvingIcon from "./../public/assets/icons/problem-solving.svg";
 import FreelancerIcon from "./../public/assets/icons/freelance.svg";
 import BackendIcon from "./../public/assets/icons/backend.svg";
 import FullStackIcon from "./../public/assets/icons/full-stack.svg";
+import DemoIcon from "./../public/assets/icons/demo.svg";
 
 const navLinks = [
   {
@@ -46,17 +47,18 @@ const services = [
     icon: <BackendIcon />,
   },
   {
-    title: "Containers & Orchestration",
+    title: "Automation & Scripting",
     icon: <ProblemSolvingIcon />,
   },
   {
-    title: "Automation & Scripting",
+    title: "Containers & Orchestration",
     icon: <FreelancerIcon />,
   },
   {
-    title: "Release Management",
+    title: "Monitoring",
     icon: <LeaderShipIcon />,
   },
+
 ];
 
 const technologies = {
@@ -384,94 +386,292 @@ const experiences = [
 
 const projects = [
   {
-    name: "FigPro",
+    name: "DevOpsPro",
     description:
-      "FigPro is a web-based collaborative design tool similar to Figma, built using Next.js, TypeScript, Tailwind CSS, and LiveBlocks API, Fabric.js. With FigPro, teams can seamlessly collaborate on designing interfaces in real-time with a plethora of features.",
+      "DevOpsPro is a comprehensive CI/CD pipeline management tool designed to streamline the software delivery process. Built with Git, Jenkins, Maven, Trivy, Docker, SonarQube, ArgoCD, Kubernetes, and Slack, it automates build, deployment, security scanning, and monitoring for scalable cloud-native applications.",
     tags: [
       {
-        name: "typescript",
+        name: "git",
+        color: "red-text-gradient",
+      },
+      {
+        name: "jenkins",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "maven",
         color: "blue-text-gradient",
       },
       {
-        name: "next.js",
+        name: "trivy",
         color: "green-text-gradient",
       },
       {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
+        name: "docker",
+        color: "blue-text-gradient",
       },
       {
-        name: "fabricjs",
+        name: "sonarqube",
         color: "orange-text-gradient",
       },
       {
-        name: "liveblocks",
-        color: "yellow-text-gradient",
+        name: "argocd",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "kubernetes",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "slack",
+        color: "pink-text-gradient",
       },
     ],
-    image: "/assets/projects/fig-pro.png",
+    image: "/assets/projects/devops-pro.gif",
   },
   {
-    name: "GDSC Website",
+    name: "CloudOps Manager",
     description:
-      "Welcome to the official repository for the GDSC MVJCE Website, built with Next.js, Styled Components, and Prisma! This website serves as the central hub for all things tech-related at GDSC MVJCE. From insightful blog posts to incredible community projects, and from exciting tech events to getting to know our team, you'll find it all here.",
+      "Welcome to the official repository for the DevOps Automation Platform. Built with GitLab, Jenkins, Maven, Docker, Trivy, SonarQube, DockerHub private repositories, Kubernetes, Load Balancer, Domain Mapper, Terraform, Grafana, and Prometheus! This platform automates CI/CD pipelines, security scanning, infrastructure provisioning, and monitoring for cloud-native applications.",
     tags: [
       {
-        name: "next.js",
-        color: "blue-text-gradient",
+        name: "git",
+        color: "red-text-gradient",
       },
       {
-        name: "styled-components",
+        name: "jenkins",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "trivy",
         color: "green-text-gradient",
       },
       {
-        name: "three.js",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "prisma",
+        name: "sonarqube",
         color: "orange-text-gradient",
       },
       {
-        name: "framer-motion",
+        name: "maven",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "docker",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "k8s",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "LB",
+        color: "gray-text-gradient",
+      },
+      {
+        name: "domain-mapper",
+        color: "brown-text-gradient",
+      },
+      {
+        name: "terraform",
+        color: "cyan-text-gradient",
+      },
+      {
+        name: "grafana",
+        color: "green-text-gradient",
+      },
+      {
+        name: "prometheus",
         color: "yellow-text-gradient",
       },
     ],
-    image: "/assets/projects/gdsc-website.png",
+    image: "/assets/projects/devops-automation-platform.gif",
     source_code_link: "",
     deployed_link: "",
   },
   {
-    name: "Facility Management System",
+    name: "AWS Cloud Deployment Pipeline",
     description:
-      "The Facility Management System is a comprehensive management solution developed using the MERN (MongoDB, Express.js, React, Node.js) stack. It allows users to book time slots in facilities and provides role-based access control for various functionalities.",
+      "This project implements a full CI/CD pipeline with Git, Jenkins, Docker, ECR, Kubernetes, and Terraform. The deployment process includes committing code, managing dev and prod branches, installing dependencies, running lint and unit tests, retrieving the last commit details, and configuring environment-based builds. Docker images are built and pushed to ECR. Kubernetes manifests are updated, kubeconfig is configured, and services are deployed. AWS S3 is used as a backend for Terraform workspaces.",
     tags: [
       {
-        name: "typescript",
+        name: "git",
+        color: "red-text-gradient",
+      },
+      {
+        name: "jenkins",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "docker",
         color: "blue-text-gradient",
       },
       {
-        name: "react",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "node.js",
+        name: "ecr",
         color: "orange-text-gradient",
       },
       {
-        name: "tanstack/react-query",
-        color: "yellow-text-gradient",
+        name: "kubernetes",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "terraform",
+        color: "cyan-text-gradient",
+      },
+      {
+        name: "aws-s3",
+        color: "pink-text-gradient",
       },
     ],
-    image: "/assets/projects/facility-manager.png",
+    image: "/assets/projects/aws-cloud-deployment.gif",
   },
-
+  {
+    name: "Azure DevOps Kubernetes Integration",
+    description:
+      "This project integrates GitHub, GitHub Actions, Azure Boards, and Kubernetes using Azure DevOps Pipelines. The development lifecycle includes GitHub Actions triggering builds, pushing images to Azure Container Registries for both development and production. DevTest includes Development and QA resource groups with AKS clusters connected to Azure Cosmos DB. Production includes a production AKS connected similarly. Azure Key Vault, Active Directory, and Azure Monitor ensure secure and efficient operation.",
+    tags: [
+      {
+        name: "vs-code",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "github",
+        color: "black-text-gradient",
+      },
+      {
+        name: "github-actions",
+        color: "green-text-gradient",
+      },
+      {
+        name: "azure-boards",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "aks",
+        color: "cyan-text-gradient",
+      },
+      {
+        name: "cosmos-db",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "azure-key-vault",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "azure-ad",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "azure-monitor",
+        color: "red-text-gradient",
+      },
+    ],
+    image: "/assets/projects/azure-k8s-integration.gif",
+  },
+  {
+    name: "Prometheus Monitoring & Alerting System",
+    description:
+      "A comprehensive monitoring and alerting solution utilizing Prometheus servers for metric collection from Kubernetes API, Nodes, and Microservices. Data is visualized in Grafana dashboards and alerts are pushed using AlertManager through webhooks, Slack, and Email.",
+    tags: [
+      {
+        name: "prometheus",
+        color: "red-text-gradient",
+      },
+      {
+        name: "kubernetes-api",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "kube-state-metrics",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "redis",
+        color: "green-text-gradient",
+      },
+      {
+        name: "apache",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "fluentd",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "grafana",
+        color: "cyan-text-gradient",
+      },
+      {
+        name: "alertmanager",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "webhooks",
+        color: "gray-text-gradient",
+      },
+      {
+        name: "slack",
+        color: "teal-text-gradient",
+      },
+      {
+        name: "email",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: "/assets/projects/prometheus-architecture.gif",
+  },
+  {
+    name: "AWS VPC Network Architecture",
+    description:
+      "This project demonstrates a highly-available and scalable architecture built using AWS services. It leverages VPC with public and private subnets across multiple availability zones, incorporating services like ALB, NAT Gateways, and VPC Endpoints for secure communication. Additionally, it integrates VPN, Direct Connect, and Transit Gateway for hybrid connectivity with on-premise infrastructure.",
+    tags: [
+      {
+        name: "aws-vpc",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nat-gateway",
+        color: "green-text-gradient",
+      },
+      {
+        name: "alb",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "s3",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "lambda",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "vpn",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "transit-gateway",
+        color: "cyan-text-gradient",
+      },
+      {
+        name: "direct-connect",
+        color: "red-text-gradient",
+      },
+      {
+        name: "route53",
+        color: "gray-text-gradient",
+      },
+      {
+        name: "cloudfront",
+        color: "teal-text-gradient",
+      },
+      {
+        name: "flow-logs",
+        color: "indigo-text-gradient",
+      },
+    ],
+    image: "/assets/projects/cloud-vpc-architecture.gif",
+  },    
 ];
-
 const socials = [
   {
     id: "github",

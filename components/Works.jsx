@@ -7,7 +7,6 @@ import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import truncateText from "@/utils/truncate";
 import GithubLogo from "./../public/assets/icons/github.svg";
-import RocketLogo from "./../public/assets/icons/rocket.svg";
 
 function ProjectCard({
   index,
@@ -41,15 +40,6 @@ function ProjectCard({
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 20vw"
               className="object-cover"
             />
-          </div>
-
-          <div className="absolute inset-0 flex justify-start m-3 card-img_hover">
-            <div
-              onClick={() => window.open(deployed_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-            >
-              <RocketLogo className="w-1/2 h-1/2 mr-[2px] z-10" />
-            </div>
           </div>
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
